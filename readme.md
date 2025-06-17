@@ -15,8 +15,7 @@
 2. docker compose up -d --build
 
 ### 2.Laravel環境構築
-
-1. composer install
+1. docker compose exec php composer install
 2. 「.env.example」をコピーして「.env」ファイルを作成し、下記環境変数の変更をする
 -  DB_HOST=mysql
 -  DB_DATABASE=laravel_db
@@ -28,7 +27,7 @@
 
 ## 使用技術
 
-- PHP 8.4.1
+- PHP 8.1.32
 - Laravel Framework 8.83.29
 - MySQL 8.0.41
 - Docker 27.5.1
